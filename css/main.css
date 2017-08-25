@@ -1,0 +1,121 @@
+body {
+    background: #eee;
+    padding: 0px;
+    margin: 0px;
+    color: #555;
+}
+
+.input_address img {
+    float: right;
+    width: 14px;
+    height: 14px;
+    margin-top: 18px;
+}
+
+.input_address {
+    height: 50px;
+    background: #fff;
+    padding: 0px 10px 0px 20px;
+    line-height: 50px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 1px;
+}
+
+.input_address span {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.input_address input {
+    width: 70%;
+    border: 0px;
+    color: #666;
+}
+
+#address_show {}
+
+.address_shadow {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+.shadow_all {
+    width: 100%;
+    height: 50%;
+    background: #fff;
+    position: absolute;
+    bottom: 0px;
+    overflow: scroll;
+}
+
+.all_top {
+    height: 35px;
+    line-height: 35px;
+    background: #F0F0F0;
+    font-size: 12px;
+    padding-left: 10px;
+    overflow: auto;
+}
+
+.all_top img {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+}
+
+.cancelBut {
+    text-align: center;
+    width: 40px;
+    float: right;
+}
+
+.add_item {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.add_list1 {
+    padding: 0 10px;
+}
+
+.add_list2 {
+    padding: 0 10px;
+    display: none;
+}
+
+.add_list3 {
+    padding: 0 10px;
+    display: none;
+}
+
+.add_list4 {
+    padding: 0 10px;
+    display: none;
+}
+
+.add_set {
+    overflow: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+.add_set li {
+    height: 39px;
+    list-style-type: none;
+    float: left;
+    margin: 0 10px;
+}
+
+.add_select {
+    color: #ffc154;
+    border-bottom: 1px solid #ffc154;
+}
