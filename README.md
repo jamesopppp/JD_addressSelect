@@ -1,2 +1,4 @@
 # JD_addressSelect
-新手尝试制作jd的地址选择器 js jq css
+尝试制作三级地址选择器 
+html jq css
+git clone
